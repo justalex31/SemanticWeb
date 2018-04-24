@@ -1,0 +1,28 @@
+<http://localhost/swcourse/alex_kleshevnikov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person>
+<http://localhost/swcourse/alex_kleshevnikov> <http://xmlns.com/foaf/0.1/name> "Alexey Kleshevnikov"@en.
+<http://localhost/swcourse/alex_kleshevnikov> <http://xmlns.com/foaf/0.1/name> "Алексей Клещевников"@ru.
+
+__________________________________________________
+
+@prefix : <http://localhost/swcourse/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+:alex_kleshevnikov rdf:type foaf:Person;
+					foaf:name "Alexey Kleshevnikov"@en,
+								"Алексей Клещевников"@ru;
+					foaf:mbox <mailto:kleshevnikov2011@gmail.com>,
+								<mailto:kleshevnikov_2011@mail.ru>,
+								<mailto:AIKleschevnikov@stud.kpfu.ru>;
+					schema:birthDate "1997-05-31"^^xsd:date;
+					foaf:knows :max_talanov,
+								:airat_khasianov,
+								[
+									rdf:type foaf:Person;
+									foaf:name "Airat Khasianov"@en,
+												"Айрат Хасьянов"@ru;
+								];
+					foaf:interest <http://dbpedia.org/resource/Carmina_Burana>,
+									<http://dbpedia.org/resource/Katyusha_(song)>.
