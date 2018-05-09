@@ -17,12 +17,28 @@ __________________________________________________
 								<mailto:kleshevnikov_2011@mail.ru>,
 								<mailto:AIKleschevnikov@stud.kpfu.ru>;
 					schema:birthDate "1997-05-31"^^xsd:date;
-					foaf:knows :max_talanov,
-								:airat_khasianov,
+					foaf:knows :taya_buzukina,
+								:vika_kalinina,
+								:danil_vildanov,
+								:artem_zolotukhin,
+								:artem_ivanov,
+								:guliya_iskandarova,
+								:ismagilov_bulat,
+								:ekaterina_mitrofanova,
+								:nurgaliev_rustam,
+								:islam_antin,
+								:katin_rostislav,
+								:lavi,
+								:nikita_simakov,
+								:alina_suleymanova
+								:constantine_menshenin,
 								[
 									rdf:type foaf:Person;
-									foaf:name "Airat Khasianov"@en,
-												"Айрат Хасьянов"@ru;
-								];
+									foaf:name "Kostya" @en,
+									"Костя" @ru
+								]
 					foaf:interest <http://dbpedia.org/resource/Carmina_Burana>,
-									<http://dbpedia.org/resource/Katyusha_(song)>.
+									<http://dbpedia.org/resource/Katyusha_(song)>,
+									<http://dbpedia.org/resource/Drunken_Sailor>,
+									<http://dbpedia.org/resource/Brainstorm_(Latvian_band)>,
+									<http://dbpedia.org/resource/Michael_Franti>.
