@@ -30,7 +30,7 @@ __________________________________________________
 								:katin_rostislav,
 								:lavi,
 								:nikita_simakov,
-								:alina_suleymanova
+								:alina_suleymanova,
 								:constantine_menshenin,
 								[
 									rdf:type foaf:Person;
